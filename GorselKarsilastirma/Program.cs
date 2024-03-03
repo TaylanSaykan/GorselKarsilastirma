@@ -16,7 +16,7 @@ namespace GorselKarsilastirma
             Console.WriteLine("Lütfen bekleyin. bu işlem biraz uzun sürebilir");
             using (IWebDriver driver = new ChromeDriver(service, options))
             {
-                for (int i = 1; i <= 25; i++) // Örnek olarak sadece 2 görsel alıyoruz
+                for (int i = 1; i <= 2; i++) // Örnek olarak sadece 2 görsel alıyoruz
                 {
                     string url = $"https://www.taylansaykan.com/{i}";
                     string screenshotFileName = $"ekran_goruntusu_{i}.png";
